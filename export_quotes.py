@@ -1,3 +1,5 @@
+import os
+CDIR = os.path.dirname(os.path.abspath(__file__))
 # 2D Array of quotes
 # Format: [{quote}, {author}]
 quotes = [
