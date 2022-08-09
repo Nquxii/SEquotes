@@ -1,4 +1,4 @@
-# Sequotes
+# SEquotes
 View software engineering quotes in your terminal
 
 ## Install
