@@ -162,9 +162,9 @@ def main():
         ['What one programmer can do in one month, two programmers can do in two months.', '- Frederick P. Brooks'],
     ]
     
-    with open(f'{CDIR}/quotes.txt', 'a') as f:
-        for i in quotes:
-            quote = ' '.join(i)
+    with open(f'{CDIR}/quotes.txt', 'a', encoding="utf-8") as f:
+        for quote in quotes:
+            quote = ' '.join(quote)
             f.write(f'{quote}\n')
 
 if __name__ == "__main__":
